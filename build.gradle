@@ -1,0 +1,121 @@
+group 'com.thesisdesign'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'base'
+apply plugin: 'maven'
+
+sourceCompatibility = 1.8
+
+ext {
+    springBootVersion = '1.4.2.RELEASE'
+    springVersion = '4.2.4.RELEASE'
+    dubboVersion = '2.5.9'
+    zkclientVersion = '0.10'
+    madlifeVersion = '1.0.8'
+
+    env = System.getProperty("env") == null ? "development" : System.getProperty("env")
+}
+
+buildscript {
+    ext {
+        springBootVersion = '1.4.2.RELEASE'
+    }
+
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:$springBootVersion")
+    }
+}
+
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'maven-publish'
+
+    configurations.all {
+        // check for updates every build
+        resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+    }
+
+    task sourcesJar(type: Jar, dependsOn: classes) {
+        classifier = 'sources'
+        from sourceSets.main.allSource
+    }
+}
+
+subprojects {
+    apply plugin: 'idea'
+    apply plugin: 'java'
+
+    version = parent.version
+    group = parent.group
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    configurations {
+        all*.exclude group: "org.springframework.boot", module: "spring-boot-starter-logging"
+        all*.exclude group: "org.slf4j", module: "slf4j-log4j12"
+    }
+
+    repositories {
+        //Use local maven repository, Consistent with publishing path; Or use mavenLocal() replace both
+        maven {
+            url "/home/carloshuang/Tools/m2repository"
+        }
+        jcenter()
+    }
+
+    sourceSets {
+        main {
+            resources {
+                srcDirs = ["src/main/resources/base", "src/main/resources/$env"]
+            }
+        }
+        test {
+            resources {
+                srcDirs = ["src/test/resources/base", "src/test/resources/$env"]
+            }
+        }
+    }
+
+    dependencies {
+        compile "org.springframework.boot:spring-boot-starter:$springBootVersion"
+        compile "org.springframework.boot:spring-boot-starter-test:$springBootVersion"
+        compile "org.springframework.boot:spring-boot-starter-log4j2:$springBootVersion"
+        compile "org.springframework:spring-aspects:$springVersion"
+
+        testCompile "org.springframework.boot:spring-boot-starter-test:$springBootVersion"
+    }
+}
+
+project(":weixiao-api") {
+    apply plugin: 'spring-boot'
+    jar.archiveName = "weixiao-api.jar"
+
+    dependencies {
+        compile project(":weixiao-core")
+        compile "org.springframework.boot:spring-boot-starter-web:$springBootVersion"
+        compile "org.springframework.boot:spring-boot-starter-aop:$springBootVersion"
+        compile "org.springframework.boot:spring-boot-starter-actuator:$springBootVersion"
+        compile "org.springframework.boot:spring-boot-starter-cache:$springBootVersion"
+        compile "com.alibaba:dubbo:$dubboVersion"
+        compile "com.101tec:zkclient:$zkclientVersion"
+    }
+}
+
+project(":weixiao-common") {
+    dependencies {
+        compile "com.thesisdesign:madlife-contract:$madlifeVersion"
+    }
+}
+
+project(":weixiao-core") {
+    dependencies {
+        compile project(":weixiao-common")
+    }
+}

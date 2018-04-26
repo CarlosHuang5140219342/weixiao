@@ -1,0 +1,5 @@
+rootProject.name = 'weixiao'
+include 'weixiao-api'
+include 'weixiao-common'
+include 'weixiao-core'
+

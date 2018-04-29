@@ -1,5 +1,6 @@
 package com.thesisdesign.weixiao.api;
 
+import com.thesisdesign.weixiao.common.utils.CommonUtils;
 import com.thesisdesign.weixiao.core.WeixiaoCoreContext;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -19,7 +20,7 @@ public class ApplicationContext implements EmbeddedServletContainerCustomizer {
 
     @Override
     public void customize(ConfigurableEmbeddedServletContainer container) {
-        container.setPort(8081);
+        container.setPort(CommonUtils.WEIXIAO_PROJ_PORT);
     }
 
 

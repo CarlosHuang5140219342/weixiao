@@ -87,6 +87,8 @@ subprojects {
         compile "org.springframework.boot:spring-boot-starter:$springBootVersion"
         compile "org.springframework.boot:spring-boot-starter-test:$springBootVersion"
         compile "org.springframework.boot:spring-boot-starter-log4j2:$springBootVersion"
+        compile "org.springframework.boot:spring-boot-starter-thymeleaf:$springBootVersion"
+        compile('net.sourceforge.nekohtml:nekohtml:1.9.22')
         compile "org.springframework:spring-aspects:$springVersion"
 
         testCompile "org.springframework.boot:spring-boot-starter-test:$springBootVersion"

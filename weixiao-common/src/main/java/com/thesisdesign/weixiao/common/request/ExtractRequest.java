@@ -3,6 +3,13 @@ package com.thesisdesign.weixiao.common.request;
 public class ExtractRequest {
     private String filename;
 
+    public ExtractRequest() {
+    }
+
+    public ExtractRequest(String filename) {
+        this.filename = filename;
+    }
+
     public String getFilename() {
         return filename;
     }

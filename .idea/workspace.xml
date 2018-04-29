@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7efca3f7-90ed-4cf4-a974-929e37b68e3c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixiao-common/src/main/java/com/thesisdesign/weixiao/common/utils/CommonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileContent/annotation-processors.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-api/build/classes/java/main/com/thesisdesign/weixiao/api/ApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-api/build/classes/java/main/com/thesisdesign/weixiao/api/ApplicationContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-api/build/classes/java/main/com/thesisdesign/weixiao/api/controller/EmailFilterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-api/build/classes/java/main/com/thesisdesign/weixiao/api/controller/EmailFilterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-api/build/classes/java/main/com/thesisdesign/weixiao/api/controller/TestConrtroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-api/build/classes/java/main/com/thesisdesign/weixiao/api/controller/TestConrtroller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-api/build/classes/java/main/com/thesisdesign/weixiao/api/controller/TextExtractionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-api/build/classes/java/main/com/thesisdesign/weixiao/api/controller/TextExtractionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-api/src/main/java/com/thesisdesign/weixiao/api/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-api/src/main/java/com/thesisdesign/weixiao/api/ApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-api/src/main/java/com/thesisdesign/weixiao/api/controller/EmailFilterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-api/src/main/java/com/thesisdesign/weixiao/api/controller/EmailFilterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-api/src/main/java/com/thesisdesign/weixiao/api/controller/TestConrtroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-api/src/main/java/com/thesisdesign/weixiao/api/controller/TestConrtroller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-api/src/main/java/com/thesisdesign/weixiao/api/controller/TextExtractionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-api/src/main/java/com/thesisdesign/weixiao/api/controller/TextExtractionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-api/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-common/build/classes/java/main/com/thesisdesign/weixiao/common/request/EmailFilterRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-common/build/classes/java/main/com/thesisdesign/weixiao/common/request/EmailFilterRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-common/build/classes/java/main/com/thesisdesign/weixiao/common/request/ExtractRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-common/build/classes/java/main/com/thesisdesign/weixiao/common/request/ExtractRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-common/build/classes/java/main/com/thesisdesign/weixiao/common/result/EmailWithTagResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-common/build/classes/java/main/com/thesisdesign/weixiao/common/result/EmailWithTagResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-common/build/classes/java/main/com/thesisdesign/weixiao/common/vo/EmailWithContentVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-common/build/classes/java/main/com/thesisdesign/weixiao/common/vo/EmailWithTagVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-common/build/libs/weixiao-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-common/build/libs/weixiao-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-common/src/main/java/com/thesisdesign/weixiao/common/request/ExtractRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-common/src/main/java/com/thesisdesign/weixiao/common/request/ExtractRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-core/build/classes/java/main/com/thesisdesign/weixiao/core/service/InputFileService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-core/build/classes/java/main/com/thesisdesign/weixiao/core/service/impl/EmailFilterLocalServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-core/build/classes/java/main/com/thesisdesign/weixiao/core/service/impl/EmailFilterLocalServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-core/build/classes/java/main/com/thesisdesign/weixiao/core/service/impl/InputFileServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-core/build/classes/java/main/com/thesisdesign/weixiao/core/service/impl/TextExtractionLocalServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-core/build/classes/java/main/com/thesisdesign/weixiao/core/service/impl/TextExtractionLocalServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-core/build/libs/weixiao-core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-core/build/libs/weixiao-core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-core/src/main/java/com/thesisdesign/weixiao/core/service/InputFileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-core/src/main/java/com/thesisdesign/weixiao/core/service/FileGetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-core/src/main/java/com/thesisdesign/weixiao/core/service/impl/EmailFilterLocalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-core/src/main/java/com/thesisdesign/weixiao/core/service/impl/EmailFilterLocalServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-core/src/main/java/com/thesisdesign/weixiao/core/service/impl/InputFileServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixiao-core/src/main/java/com/thesisdesign/weixiao/core/service/impl/TextExtractionLocalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/weixiao-core/src/main/java/com/thesisdesign/weixiao/core/service/impl/TextExtractionLocalServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="7efca3f7-90ed-4cf4-a974-929e37b68e3c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/weixiao-api/.gradle/" />
     <ignored path="$PROJECT_DIR$/weixiao-api/build/" />
@@ -168,7 +130,11 @@
       </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="CommonUtils.java" pinned="false" current-in-tab="false">
@@ -1395,15 +1361,16 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/weixiao-api/src/main/resources/base" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/weixiao-api/src/main/resources/base/META-INF" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/weixiao-api/src/main/resources/base/META-INF" />
       <recent name="$PROJECT_DIR$/weixiao-api/src/main/resources" />
       <recent name="$PROJECT_DIR$/weixiao-api/src/main/resources/base/META-INF/spring" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/weixiao-api/src/main/resources/base" />
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/weixiao-api/src/main/resources/base/META-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1520,7 +1487,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1789" height="971" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1849,7 +1815,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
